@@ -1,0 +1,18 @@
+@import "../../../../../styles/variables";
+
+.embedded-asset {
+  max-height: 15rem;
+  width: 100%;
+  object-fit: contain;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include respond-to("medium") {
+    max-height: 25rem;
+  }
+}

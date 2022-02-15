@@ -1,0 +1,11 @@
+@import "../../../../../styles/variables";
+
+.content {
+  width: calc(min(67.5rem, 100%) - 14rem);
+  margin-left: 14rem;
+  padding: 2rem;
+
+  p {
+    margin: 0.75rem 0;
+  }
+}
